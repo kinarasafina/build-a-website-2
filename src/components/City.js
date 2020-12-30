@@ -4,8 +4,8 @@ import React from "react";
 function city({ cityName, temp, color }) {
   return (
     <div className={"flex flex-row justify-between p-8 items-center " + color}>
-      <div className="text-2xl">{cityName}</div>
-      <div className="text-5xl">{temp}</div>
+      <div className="text-xl font-medium">{cityName}</div>
+      <div className="text-4xl font-thin">{temp}</div>
     </div>
   );
 }
