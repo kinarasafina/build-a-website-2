@@ -40,7 +40,7 @@ function Home() {
       color: "bg-yellow-300",
     },
     {
-      name: "Japan",
+      name: "Tokyo",
       currentTemp: "0",
       weatherType: "",
       color: "bg-yellow-200",
